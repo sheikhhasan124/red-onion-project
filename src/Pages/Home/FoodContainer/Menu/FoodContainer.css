@@ -1,0 +1,27 @@
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.menu-item img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.menu-item{
+    border: 1px solid lightcoral;
+    border-radius: 20px;
+}
+.btn-container{
+    text-align: center;
+    margin: 20px;
+}
+.btn-container button{
+    padding: 10px 20px;
+}
+
+@media screen and (max-width:900px) {
+    .menu-container{
+        grid-template-columns: auto auto;
+    }
+}

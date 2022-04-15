@@ -1,13 +1,14 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import FoodNav from '../FoodContainer/FoodNav/FoodNav';
+import Menu from '../FoodContainer/Menu/Menu';
+
 
 const Home = () => {
     return (
         <div>
             <h2>home</h2>
             <Banner></Banner>
-            <FoodNav></FoodNav>
+           <Menu></Menu>
         </div>
     );
 };

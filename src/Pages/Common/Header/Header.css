@@ -14,11 +14,11 @@ nav .nav-desc img, a{
     margin-right: 30px;
     text-decoration: none;
 }
-nav a{
+nav .nav-desc a{
     font-size: 20px;
     font-weight: 600;
 }
-nav a:last-child{
+nav .nav-desc a:last-child{
     background-color: rgb(253, 45, 9);
     color: white;
     padding: 8px 20px;
