@@ -1,0 +1,31 @@
+.banner-contaier{
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../../images/bannerbackground.png);
+  background-size:cover;
+  background-position:right;
+  background-repeat: no-repeat;
+}
+.banner p{
+    font-size: 30px;
+    font-weight:600;
+}
+.banner input{
+   padding: 10px;
+   width: 300px;
+   border: none;
+   border-radius: 30px;
+   
+}     
+.banner button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(236, 72, 43);
+    color: white;
+    border-radius: 10px;
+}
+
