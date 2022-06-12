@@ -1,0 +1,11 @@
+.blog{
+    color: gray;
+    animation-name: blog;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blog {
+    from { color: gray;}
+    to {color: red;}
+}
